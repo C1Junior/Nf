@@ -1,0 +1,241 @@
+body{
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 152px 0px;
+    width: 1440px;
+    height: 900px;
+}
+.rectangle{
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    flex-shrink: 0;
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+}
+.nft_img_div{
+    display: flex;
+    width: 302px;
+    height: 302px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 24px 24px;
+    transition: 1s;
+}
+.icon{
+    opacity: 100;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    color: white;
+    top: 127px;
+    left: 127px;
+    z-index: 1;
+}
+.overlay{  
+    position: absolute;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    width: 302px;
+    height: 302px;
+    flex-shrink: 0;
+    justify-content: center;
+    color: #00FFF8;
+    border-radius: 8px;
+    opacity: 0.503;
+}
+.nft_img{
+    display: flex;
+    border-radius: 8px;
+    transition: 1s;
+}
+.text_div_1{
+    height: 28px;
+    width: 302px;
+    text-align: center;
+    margin: 0px 24px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.equibrilium{
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    width: 302px;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    font-size: 22px;
+    transition: 1s;
+}
+.equibrilium:hover{
+    color: #00FFF8;
+    cursor: pointer;
+   
+}
+.text_div_2{
+    width: 302px;
+    height: 52px;
+    margin: 0px 24px;
+}
+.collection{
+    color: #8BACD9;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    font-style: lighter;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+.etherium_div{
+    width: 301px;
+    height: 20px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.485px;
+    margin: 24px 24px 0px;
+}
+.etherium_text{
+    width: 150 px;
+    height: 20px;
+    display: inline-flex;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6.485px;
+
+}
+.etherium_icon{
+    color: #00FFF8;
+}
+.Eth{
+    color: #00FFF8;
+    margin: 0px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-style: 'Outfit', sans-serif ;
+    font-size: 600;
+    line-height: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.clock{
+    padding-left: 111px ;
+    width: 16px;
+    height: 16px;
+}
+.clock_text{
+    margin-bottom: 10px;
+    height: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin: 0%;
+    color: #8BACD9;
+    width: 73px;
+    display: inline-flex;
+}
+.line{
+    width: 302px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #2E405A;
+    margin: 24px 24px 0px;
+}
+.text_div_3{
+    display: flex;
+    width: 230px;
+    height: 33px;
+    flex-shrink: 0;
+    margin: 16px 24px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+.avatar{
+    display: flex;
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    border: 1px solid white;
+}
+.avatar_text{
+    display: flex;
+    width: 181px;
+    height: 20px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    margin-left: 16px;
+
+}
+.text1{
+    margin: 0%;
+    color: #8BACD9;
+    font-family: 'Outfit' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 16px;
+}
+.text2{
+    transition: 1s;
+
+    margin: 0%;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 16px;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+.icon{
+   
+    opacity: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 24px 24px;
+    margin: 0%;
+}
+.group_1{
+    height: 20px;
+}
+.group_2{
+    height: 20px;
+
+}
+.text2:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+.overlay:hover{
+    background-color: #00FFF8;
+    border-radius: 8px;
+    transition: 1s ease-in-out; 
+    opacity: 0.503;
+}
+.overlay:hover .icon{
+    opacity: 10 ;
+    color: white;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+}
